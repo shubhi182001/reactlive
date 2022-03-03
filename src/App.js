@@ -27,7 +27,7 @@ function App() {
       <Route exact path='/forgotpassword' element= {<ForgotPassword/>}/>
       <Route exact path='/navbar' element= {<Navbar/>}/>
       
-      <Route path="*" element={<Error/>}/>
+      <Route path="*" element={<Login/>}/>
     </Routes>
     
     </>
