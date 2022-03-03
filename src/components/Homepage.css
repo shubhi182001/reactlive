@@ -1,0 +1,33 @@
+.logotext{
+    background-color: rgb(255, 255, 255);
+    display:inline;
+    width: 100px;
+    height: 100px;
+    bottom: -2rem;
+    position: relative;
+    animation-name: bouncein;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes bouncein {
+    from{
+        bottom:-300px
+    }
+    to{
+        bottom:-2rem;
+    }
+}
+
+
+#preloader{
+    
+    width: 100vw;
+    height: 100vh;
+}
+.cardbody {
+    background: url("../1489 (1).gif") no-repeat center  ;
+    background-size: 200px;
+    width: 100%;
+    z-index: 100;
+}
